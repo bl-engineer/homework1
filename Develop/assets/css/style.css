@@ -39,6 +39,7 @@ section{
     color: #d9dcd6;
 }
 
+/* Formatting the div container that contains the header class with a padding just to the top, a margin to the right, with a font size and font-family styling. Setting float to the right */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -47,24 +48,29 @@ section{
     font-size: 20px;
 }
 
+/* Setting the ul in the div container that contains a header class, to list-style-type to `none` */
 .header div ul {
     list-style-type: none;
 }
 
+/* Setting the li in the ul that is contained in the div container which contains `.header` class */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Setting all the color of reference link and text-decoration to `none` */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Setting all the p tags to font-size `16px` */
 p {
     font-size: 16px;
 }
 
+/* Setting properties of container for large image below header */
 .hero {
     height: 800px;
     width: 100%;
@@ -76,17 +82,20 @@ p {
 
 }
 
+/* formatting both float-left, float-right classes to left with `25px` of left margin */
 .float-left, .float-right {
     float: left;
     margin-right: 25px;
 }
 
+/* Setting content class of the main portion of the website below large image to a width, display: inline-block with `75%` of left margin.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Setting the side configuration with margin-right, padding, font including background color and width and height */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -98,26 +107,27 @@ p {
     background-color: #2589bd;
 }
 
+/* Setting both classes t margin-bottom `32px` with this specific color */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* Setting both benefit-lead, benefit-brand, benefit-cost classes of h3 tag in the div container to `10px` margin-bottom with a text alignment to center */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* Setting both benefit-lead, benefit-brand, benefit-cost classes of the image tag in the div container to `150px`max-width, a margin of `10px` set to `auto` and a display to `block` */
 .benefit-lead img, .benefit-brand img, .benefit-cost img  {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-.search-engine-optimization {
+/* Formationg both classes to the below properties */
+.search-engine-optimization, .online-reputation-management{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -126,15 +136,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/* Setting the social-media-marketing class for elements of the div to the below properties */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -149,29 +151,20 @@ p {
     max-height: 200px;
 }
 
-
-.search-engine-optimization h2 {
+/* Formatting the h2 tag in the div container of both classes to a `20px` margin-bottom and a font-size of `36px` */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Setting all the elements of the footer to a `30px` of padding, clear to `both`, a family-font styling and text alignment to center */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Setting only the h2 tag of the footer to font-size `20px` */
 .footer h2 {
     font-size: 20px;
 }
