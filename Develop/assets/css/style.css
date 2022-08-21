@@ -28,12 +28,13 @@ section{
     color: #ffffff;
   
 }
-
+/* Setting the display of the h1 tag in the header class. This allow to set the width and height and also the top and bottom margins/paddings will be respected.  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Setting the color of the h1 tag in the header class and at the same time the seo class to this specific color */
 .header h1 .seo {
     color: #d9dcd6;
 }
