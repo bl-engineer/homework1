@@ -47,6 +47,5 @@ This layout is designed for "desktop", so you may notice that some of the elemen
 © Done by: Bocar Ly
 Assigment: Week 1 Homework 
 
-[Github_URL]: (https://github.com/bl-engineer/homework1)
+[Github_URL]:(https://github.com/bl-engineer/homework1)
 
-[Deployed_URL]: (https://bl-engineer.github.io/homework1/)
