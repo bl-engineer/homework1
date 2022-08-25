@@ -33,6 +33,9 @@ Follow the instructions to submit your Challenge for review.
 
 This layout is designed for "desktop", so you may notice that some of the elements don't look like the Mock-Up when viewed at a resolution smaller than 768px. In future lessons, you will learn how to make elements "responsive" so that your web application is optimized for any screen size.
 
+# Files organization
+I have taken out index.html from `Develop folder`to the `root` so that with `Github pages`when i deploy the site, it won't start with the README but the html
+
 ---
 © Done by: Bocar Ly
 Assigment: Week 1 Homework 
